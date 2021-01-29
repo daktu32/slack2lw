@@ -10,6 +10,6 @@ Resources:
       Handler: index.handler
       MemorySize: 128
       Role: >-
-        arn:aws:iam::522216370305:role/service-role/recieveFromSlack-role-wel6nx58
+        arn:aws:iam::{AccountID}:role/service-role/recieveFromSlack-role-wel6nx58
       Runtime: nodejs12.x
       Timeout: 3
